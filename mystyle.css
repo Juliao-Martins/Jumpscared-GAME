@@ -40,6 +40,10 @@ body {
   margin-top: 15px;
 }
 
+.note > button:hover {
+  cursor: pointer;
+}
+
 .container-box {
   width: 3rem;
   height: 90vh;
