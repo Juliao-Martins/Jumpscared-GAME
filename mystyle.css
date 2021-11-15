@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.5rem 'Raleway';
+  padding: 1rem 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.note {
+  background-color: orange;
+  padding: 0 10px;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.note > button {
+  width: 80px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: cornflowerblue;
+  border: 1px solid dodgerblue;
+  margin-top: 15px;
+}
+
+.container-box {
+  width: 3rem;
+  height: 90vh;
+  background-color: dodgerblue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.container-box > .box {
+  width: 80%;
+  height: 10vh;
+  background-color: firebrick;
+  position: absolute;
+  bottom: 0;
+}
+
+.suprise {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.show-suprise {
+  display: flex;
+}
+
+.suprise > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .container-box {
+    margin: auto;
+  }
+
+  .suprise > img {
+    object-fit: cover;
+  }
+}
