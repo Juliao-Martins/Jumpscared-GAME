@@ -58,6 +58,6 @@ box.addEventListener('click', () => {
     }, 1000);
   }
 
-  y += 50;
+  y += 25;
   box.style.bottom = `${y}px`;
 })

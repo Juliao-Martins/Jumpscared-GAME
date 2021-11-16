@@ -60,7 +60,7 @@ body {
   background-color: firebrick;
   position: absolute;
   bottom: 0;
-  transition: 1s ease-in-out;
+  transition: .1s linear;
 }
 
 .suprise {
