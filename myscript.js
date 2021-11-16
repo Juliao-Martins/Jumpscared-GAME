@@ -14,7 +14,7 @@ document.addEventListener('keydown', (event) => {
 
     setTimeout(()=> {
 	sound.play();
-    }, 850);
+    }, 300);
 	
     setTimeout(()=> {
       document.querySelector(".suprise").classList.add('show-suprise');
