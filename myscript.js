@@ -12,7 +12,9 @@ document.addEventListener('keydown', (event) => {
   } else if (y > 452) {
     y = 452;
 
-    sound.play();
+    setTimeout(() => {
+      sound.play();
+    }, 50);
 	
     setTimeout(()=> {
       document.querySelector(".suprise").classList.add('show-suprise');

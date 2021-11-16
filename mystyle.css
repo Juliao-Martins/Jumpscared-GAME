@@ -5,7 +5,7 @@
 }
 
 body {
-  font: 1.5rem 'Raleway';
+  font: 1.5rem 'Raleway', sans-serif;
   padding: 1rem 0;
   background-color: black;
   display: flex;
